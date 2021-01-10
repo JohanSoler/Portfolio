@@ -59,7 +59,7 @@ body{
 .projects{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 50px 50px 50px 200px;
+    padding: 2% 5% 10% 10%;
 }
 
 .card{
@@ -109,4 +109,119 @@ footer .content{
 footer .link{
     margin-top: 25px;
     margin-left: 30%;
+}
+
+@media (max-width:1150px){
+    
+    body{
+        background-color: #a2f1ff57;
+    }
+
+    .menu{
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+        padding-left: 0%;
+        display: flex;
+        width: 500px;
+        background-color: #00026b;
+    }
+
+    .menu p{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text{
+        font-size: 20px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 2% 5% 0% 0%;
+        width: 500px;
+    }
+    
+    .menu ul{
+        display: none;
+    }
+
+    .presentation{
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        height: min-content;
+        width: 500px;
+        padding-left: 0%;
+        padding-right: 0%;
+        background-color: #c4c0e279;
+    }
+
+    .text p{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .data{
+        margin-left: 0%;
+        width: 200px;
+        margin-left: 25%;
+        margin-right: auto;
+    }
+
+    footer{
+        display: block;
+        padding-left: 0px;
+        font-size: 20px;
+        height: min-content;
+        margin-top: 3%;
+        width: 500px;
+        background-color: #c4c0e279;
+        text-align: center;
+    }
+
+    footer .content{
+        margin-left: 0%;
+    }
+
+    footer .link{
+        margin-top: 25px;
+        margin-left: 0%;
+    }
+
+    .card{
+        padding: 10px 10px 10px 10px;
+        margin-left: 20px;
+        margin-top: 20px;   
+        background-color: #a6c6f079;
+        width: 86%;
+        border-style: dotted;
+    }
+    
+    .card img{
+        margin-left: 5%;
+        width: 350px;
+        height: 200px;
+    }
+    
+    .card h1{
+        text-align: center;
+    }
+    
+    .card p{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .card a{
+        font-size: 20px;
+        text-align: center;
+        margin-left: 40%;
+    }
 }
